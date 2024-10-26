@@ -1,0 +1,151 @@
+/* Global */
+
+*{
+    font-family: 'Roboto';
+}
+body{
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+    background-color: #CFBCDF;
+}
+
+header{
+    background-color: #6c34b6;
+}
+
+header
+
+.row {
+    margin: 0;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.btn-primary{
+    background-color: #a9367c;
+    border: 2px solid #914D70;
+}
+
+.btn-primary:hover{
+    background-color: rgb(197, 151, 175);
+    border-color: #751a49;
+}
+
+.container-fluid img {
+    width: 50px;
+}
+
+/* Navbar */
+
+.navbar img{
+    width: 50px;
+    height: 50px;
+}
+
+.navbar{
+    padding: 5px 0;
+    margin: 0 50px;
+    display: flex;
+}
+
+.navbar a{
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.navbar-nav > li > a:hover{
+
+    color: #a9367c;
+
+}
+
+/* Banner */
+.banner {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+.banner > img{
+    width: 300px;
+    height: 300px;
+}
+
+/* Barra de busca */
+
+#search-container{
+    height: 400px;
+    padding: 5px 50px;
+    text-align: center;
+    height: 50%;
+}
+#input-container {
+    display: flex;
+    justify-content: center;
+   
+}
+
+#input-container > form > input {
+    width: 70vh;
+    /* background-color: #a9367c; */
+    background: radial-gradient(circle, #a9367c, #440730);
+}
+
+#input-container > form > input::placeholder {
+    color: rgb(241, 241, 241);  
+}
+
+/* Event List */
+
+#events-container{
+    padding: 50px;
+}
+
+#events-container > h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#events-container .subtitle {
+    color: #757575;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#cards-container{
+    display: flex;
+    justify-content: center;
+}
+
+#events-container .card{
+    flex: 1 1 0;
+    padding: 0;
+    margin: 5px;
+    max-width: 15%;
+    border-radius: 10px;
+    
+}
+#events-container img{
+    max-height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Footer */
+
+footer{
+    background-color: #757575;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;    
+}
+
+footer > p {
+    margin: 10px 0px
+}
+
